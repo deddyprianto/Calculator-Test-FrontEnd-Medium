@@ -1,0 +1,103 @@
+.container__Callculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Container Input */
+.container__Input1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 60%;
+  flex-direction: column;
+}
+.container__Input1 > input {
+  height: 30px;
+  width: 60%;
+}
+.container__Input1 > .icon {
+  position: absolute;
+  top: 37%;
+  right: 10%;
+}
+.container__Input1 > p {
+  font-size: 12px;
+  color: red;
+  position: absolute;
+  left: 19%;
+  bottom: 0;
+}
+.container__Input2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 60%;
+}
+.container__Input2 > input {
+  height: 30px;
+  width: 60%;
+}
+.container__Input2 > .icon {
+  position: absolute;
+  top: 37%;
+  right: 10%;
+}
+.container__Input2 > p {
+  font-size: 12px;
+  color: red;
+  position: absolute;
+  left: 19%;
+  bottom: 0;
+}
+.container__Input3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 60%;
+}
+.container__Input3 > input {
+  height: 30px;
+  width: 60%;
+}
+.container__Input3 > .icon {
+  position: absolute;
+  top: 37%;
+  right: 10%;
+}
+.container__Input3 > p {
+  font-size: 12px;
+  color: red;
+  position: absolute;
+  left: 19%;
+  bottom: 0;
+}
+/* Container button */
+.container__Button {
+  margin-top: 30px;
+}
+.container__Button > .MuiButton-root {
+  margin: 5px;
+}
+hr {
+  width: 60%;
+}
+.container__Hasil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 47%;
+}
+/* scren laptop and dekstop */
+@media (min-width: 992px) {
+  .container__Input1 > p {
+    left: 20%;
+  }
+}
